@@ -14,9 +14,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws SQLException {
         UserService service = new UserServiceImpl();
-
         service.createUsersTable();
-
         service.saveUser("Name1", "LastName1", (byte) 20);
         service.saveUser("Name2", "LastName2", (byte) 25);
         service.saveUser("Name3", "LastName3", (byte) 31);

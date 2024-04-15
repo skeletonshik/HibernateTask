@@ -14,8 +14,8 @@ public class Util {
 
     private static SessionFactory sessionFactory;
 
-    private static final String URL ="jdbc:mysql://localhost:3306/mysql";
-    private static final String USERNAME ="root1";
+    private static final String URL = "jdbc:mysql://localhost:3306/mysql";
+    private static final String USERNAME = "root1";
     private static final String PASSWORD = "root";
 
     public static Connection getConnection() {
